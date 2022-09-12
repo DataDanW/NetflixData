@@ -1,4 +1,4 @@
-
+-- A selection of questions to explore and practise SQL queries
 
 -- Quantity of US content per age rating
 SELECT rating, COUNT(rating) AS No_per_rating
