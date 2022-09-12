@@ -47,6 +47,7 @@ GROUP BY director
 ORDER BY COUNT(director)DESC
 LIMIT 1;
 
+
 -- What is the top 3 most featured genres produced in the US?
 SELECT listed_in AS genre, COUNT(country)
     AS top_us_genre
